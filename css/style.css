@@ -888,7 +888,7 @@ h2 {
 
 @media (max-width: 480px) {
   .container {
-    padding: 0 15px;
+    padding: 30px;
   }
 
   .navbar {
@@ -902,6 +902,14 @@ h2 {
   .hero-title {
     font-size: 2rem;
   }
+
+  .about-stats {
+  flex-direction:column;
+}
+
+  .partners-grid {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 0fr));
+}
 
   .section-title {
     font-size: 1.8rem;
